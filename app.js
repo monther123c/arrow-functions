@@ -224,3 +224,6 @@ Student.prototype.scopeArrow = () => console.log(this);
 // 3. Explain why "this" is different when an arrow function is used.
 // The value of 'this' is therefore the same as the 'this' of the enclosing scope (the surrounding non-arrow function). 
 // If there isn’t a non-arrow function scope surrounding, the 'this' context will be, in the browser, the global window object.
+
+
+////
